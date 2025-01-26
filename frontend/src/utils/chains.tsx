@@ -1,8 +1,8 @@
 import { Chain } from 'wagmi'
 
 // Load environment variables from .env file
-import * as dotenv from "dotenv";
-dotenv.config({ path: __dirname+'/.env' });
+// import * as dotenv from "dotenv";
+// dotenv.config({ path: __dirname+'/.env' });
 
 // Import from .env
 const SHIBUYA_RPC_URL = process.env.SHIBUYA_URL || 'https://evm.shibuya.astar.network';
